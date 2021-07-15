@@ -18,3 +18,5 @@ Desenvolvi também o nome, identidade visual e o "conceito" da marca.
 ### Contato
 
 ![](https://cdn.discordapp.com/attachments/845388670390370344/865249859295641630/lar-de-cor-loja-contato.png)
+
+#### OBS: As imagens utilizadas no projeto foram retiradas da internet.
