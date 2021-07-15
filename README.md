@@ -3,6 +3,7 @@
 Projeto de front-end simples desenvolvido para a disciplina Sistemas Web, na UFBA, utilizando as tecnologias: HTML, CSS e JavaScript.
 
 Desenvolvi também o nome, identidade visual e o "conceito" da marca.
+
 ![](https://cdn.discordapp.com/attachments/845388670390370344/865251659714527323/logo-lardecor.png)
 
 ### Home
