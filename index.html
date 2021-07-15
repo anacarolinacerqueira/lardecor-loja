@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>lar de-cor loja</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="perguntarEmail()">
+	<header>		
+			<a href="index.html"><img id="logo" src="img/logo-lardecor.png"></a>
+		<nav>
+			<ul><a href="#inspiration">início</a></ul>
+			<ul><a href="#sobre-nos">sobre nós</a></ul>
+			<ul><a href="#produtos">nossos produtos</a></ul>
+			<ul><a href="#contato">contato</a></ul>
+		</nav>
+	</header>
+	<div id="separador"></div>
+	<section id="inspiration">
+		<div id="logomarca">
+			<p>de-coração pra você ❤</p>
+		</div>
+		<img class="insp-home" src="img/home1.jpeg">
+		<img class="insp-home" src="img/home2.jpg">
+		<img class="insp-home" src="img/home3.jpg">
+	</section>
+	<section id="sobre-nos">
+		<div id="separador"></div>
+		<h1>lar de-cor</h1>
+		<div id="card1"></div>
+		<div id="card2">
+			<p>somos uma pequena empresa com objetivo de oferecer aos nossos clientes os melhores produtos de decoração disponíveis no mercado. te ajudamos a decorar com amor! aqui você pode encontrar:</p>
+			<ul>
+				<li>plantas</li>
+				<li>iluminação</li>
+				<li>tapetes</li>
+				<li>roupas de cama</li>
+				<li>itens de decoração diversos</li>
+			</ul>
+			<p>tudo de-coração, pra você! ❤</p>
+		</div>
+		<div id="card3"></div>
+ 	</section>
+ 	<div id="separador"></div>
+	<section id="produtos">
+		<table>
+			<tr>
+				<td>
+					<img src="img/produto2.png">
+					<div class="preco">R$ 157,90</div>
+					<button onclick="document.location='produto2.html'" class="comprar"> comprar </button>
+				</td>
+				<td>
+					<img src="img/produto1.jpg">
+					<div class="preco">R$ 89,50</div>
+					<button onclick="document.location='produto1.html'" class="comprar"> comprar </button>
+				</td>
+				<td>
+					<img src="img/produto3.jpg">
+					<div class="preco">R$ 115,80</div>
+					<button onclick="document.location='produto3.html'" class="comprar"> comprar </button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="img/produto4.jpg">
+					<div class="preco">R$ 79,90</div>
+					<button onclick="document.location='produto4.html'" class="comprar"> comprar </button>
+				</td>
+				<td>
+					<img src="img/produto5.jpg">
+					<div class="preco">R$ 37,90</div>
+					<button onclick="document.location='produto5.html'" class="comprar"> comprar </button>
+				</td>
+				<td>
+					<img src="img/produto6.jpg">
+					<div class="preco">R$ 51,80</div>
+					<button onclick="document.location='produto6.html'" class="comprar"> comprar </button>
+				</td>
+			</tr>
+		</table>
+		<button id="vermais" onclick="document.location='https://www.pixar.com/error404'">ver mais</button>
+	</section>
+	<div id="separador"></div>
+	<section id="contato">
+		<div id="box-contato">
+			<div id="fale">fale conosco</div>
+			<form autocomplete="on" onsubmit="confirmarEnvio()">
+				<label class="label-form"> nome: </label>
+				<input id="text-nome" type="text" name="nome" class="textbox" placeholder="nome" autofocus onkeyup="transformaCaixaAlta()">
+				<label class="label-form"> e-mail: </label>
+				<input type="email" name="email" class="textbox" placeholder="e-mail">
+				<label class="label-form"> telefone: </label>
+				<input type="tel" name="telefone" class="textbox" placeholder="telefone">
+				<label class="label-form"> mensagem: </label>
+				<input type="textarea" name="mensagem" id="campo-mensagem" placeholder="deixe sua mensagem para nós!" onkeydown="corFundoMensagem()" onkeypress="removeCorFundoMensagem()">
+				<input type="checkbox" name="aceitar" id="aceitar">
+				<label id="texto-aceitar"> aceito receber comunicados de novidades e ofertas por e-mail (fique tranquilo(a), nós também odiamos spam!)</label>
+				<button class="comprar" id="enviar">Enviar</button>
+			</form>
+		</div>
+		<div id="box-mapa">
+			<div id="onde">
+				<p>onde estamos</p>
+			</div>
+			<iframe id="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.502026350735!2d-38.512201384618976!3d-13.003670763978867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716036156d75477%3A0x5f96cd445ba8f856!2sUniversidade%20Federal%20da%20Bahia%20Campus%20Ondina!5e0!3m2!1spt-BR!2sbr!4v1604119142626!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+	</section>
+	<div id="separador"></div>
+	<footer>
+		<p>feito com amor, HTML e CSS por Ana Carolina Cerqueira</p>
+		<p>disciplina MATC82 - SLS 2020</p>
+	</footer>
+</body>
+</html>

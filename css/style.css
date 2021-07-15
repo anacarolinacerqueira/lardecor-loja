@@ -1,0 +1,421 @@
+html{
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 100%;
+}
+
+body{
+	margin: auto;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+header{
+	display: inline;
+	height: 3em;
+	width: 100%;
+}
+
+#logo{
+	width: 6%;
+	height: 100%;
+	margin-left: 3%;
+	margin-top: 1%;
+	float: left;
+}
+
+nav{
+	display: inline;
+	float: left;
+	width: 60%;
+	height: 100%;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+
+nav ul{
+	font-size: 20px;
+	position: relative;
+	display: inline;
+	padding: 5%;
+	height: 100%;
+}
+
+nav ul a{
+	text-decoration: none;
+	color: #556F44;
+	font-size: 1.2em;
+}
+
+nav ul a:hover{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+nav ul a:active{
+	color: #000;
+}
+
+nav ul a:visited{
+	text-decoration: underline;
+}
+
+#separador{
+	float: left;
+	width: 100%;
+	height: 0.5em;
+	background-color: #D96C06;
+}
+
+#logomarca{
+	float: left;
+	width: 30%;
+	height: 3em;
+	font-size: 2em;
+	margin-left: 40%;
+	font-weight: bolder;
+	color: #556F44;
+	padding: 1%;
+}
+
+#inspiration{
+	margin-top: 2%; 
+	float: left;
+	width: 100%;
+}
+
+.insp-home{
+	width: 28%;
+	height: 35em;
+	margin-left: 4%;
+	display: inline;
+}
+
+.insp-home:hover{
+	opacity: 0.8;
+	width: 28.1%;
+ 	transform: scale(1.01);
+}
+
+h1{
+	width: 50%;
+}
+
+#sobre-nos{
+	float: left;
+	width: 100%;
+	height: 45em;
+	margin-top: 5%;
+	background-color: #CDE7BE;
+}
+
+#sobre-nos h1{
+	float: left;
+	margin-left: 43%;
+	font-size: 3em;
+	color: #D96C06;
+	width: 100%;
+	height: 5%;
+}
+
+#card1{
+	width: 25%;
+	background-image: url("../img/plantas-bg.png");
+	height: 70%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	display: inline;
+}
+
+#card2{
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: inline;
+	font-size: 1.5em;
+	margin-left: 5%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+#card2 ul li{
+	text-align: justify;
+	list-style-type: square;
+}
+
+#card3{
+	width: 25%;
+	background-image: url("../img/plantas-bg.png");
+	height: 70%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	display: inline;
+}
+
+#produtos{
+	float: left;
+	width: 100%;
+	height: 88em;
+	margin-top: 5%;
+}
+
+.preco{
+	width: 50%;
+	float: left;
+	margin-left: 35%;
+	display: block;
+	font-weight: bolder;
+	font-size: 1.4em;
+	padding: 2%;
+}
+
+.comprar{
+	width:25%;
+	height: 2em;
+	font-size: 1.3em;
+	margin-left: 35%;
+	border-radius: 20px;
+	background-color: #D96C06;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid transparent;
+}
+
+.comprar:hover{
+	background-color: #fff;
+	color: #D96C06;
+	border: 2px solid #D96C06;
+}
+
+
+#vermais{
+	width:20%;
+	height: 3em;
+	font-size: 2em;
+	margin-left: 38%;
+	border-radius: 30px;
+	background-color: #D96C06;
+	color: #fff;
+	margin-top: 3%;
+	font-weight: bolder;
+	border: 2px solid transparent;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#vermais:hover{
+	background-color: #fff;
+	color: #D96C06;
+	border: 2px solid #D96C06;
+}
+
+#produtos table{
+	float: left;
+	width: 90%;
+	height: auto;
+	margin-left: 7%;
+}
+
+#produtos table tr td img{
+	width: 80%;
+	height: auto;
+	max-height: 27em;
+	float: left;
+	margin-left: 1%;
+	padding: 5%;
+	border: 1px solid transparent;
+}
+
+#produtos table tr td img:hover{
+ 	transform: scale(1.02);
+	border: 1px dashed #CDE7BE;
+	transform: rotate(3deg);
+	transition: width 1s, height 1s, transform 1s;
+}
+
+#contato{
+	float: left;
+	width: 100%;
+	height: 40em;
+	background-color: #CDE7BE;
+}
+
+#fale{
+	float: left;
+	width: 100%;
+	height: 2%;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 5%;
+	margin-left: 30%;
+	margin-bottom: 5%;
+	color: #fff;
+}
+
+#box-contato{
+	background-color: #D96C06;
+	width: 30%;
+	height: 80%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 3%;
+	border-radius: 20px;
+}
+
+.label-form{
+	font-size: 1.2em;
+	display: block;
+	width: 25%;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	padding: 1%;
+	color: #fff;
+}
+
+.textbox{
+	float: left;
+	width: 60%;
+	height: 1.8em;
+	margin-left: 20%;
+	border: none;
+}
+
+#campo-mensagem{
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	display: block;
+	height: 5em;
+	border: none;
+}
+
+#aceitar{
+	float: left;
+	margin-left: 15%;
+	margin-top: 5%;
+	width: 10%;
+}
+
+#texto-aceitar{
+	float: left;
+	width: 50%;
+	height: 1.8em;
+	margin-left: 0%;
+	margin-top: 4%;
+	font-size: 0.8em;
+	color: #fff;
+}
+
+#enviar{
+	float: left;
+	border: none;
+	width: 30%;
+	height: 2em;
+	display: block;
+	margin-left: 35%;
+	margin-top: 5%;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+#box-mapa{
+	background-color: #fff;
+	width: 50%;
+	height: 100%;
+	float: right;
+	margin-left: 10%;
+}
+
+#onde{
+	float: left;
+	width: 100%;
+	height: 15%;
+	margin-left: 40%;
+	font-weight: bold;
+	font-size: 2em;
+	color: #556F44;
+}
+
+#mapa{
+	width: 90%;
+	height: 75%;
+	margin-left: 5%;
+}
+
+footer{
+	background-color: #8693AB;
+	float: left;
+	width: 100%;
+	height: 5em;
+}
+
+footer p{
+	text-align: center;
+	font-size: 0.8em;
+	color: #fff;
+	font-weight: bolder;
+	width: 100%;
+}
+
+#produto{
+	margin-top: 1%; 
+	float: left;
+	width: 100%;
+}
+
+.produto-compra{
+	float: left;
+	width: 30%;
+	height: 35em;
+	margin: 5%;
+	margin-left: 10%;
+}
+
+.detalhes-compra{
+	float: left;
+	width: 40%;
+	height: 100%;
+	margin-top: 5%;
+}
+
+#titulo-produto{
+	font-size: 2.5em;
+	font-weight: bolder;
+	color: #556F44;
+}
+
+#descricao-produto{
+	color: #808080;
+}
+
+#preco-produto{
+	color: #D96C06;
+	font-weight: bolder;
+	font-size: 2.2em;
+	text-align: center;
+
+}
+
+.comprar-prod{
+	width:30%;
+	height: 2.5em;
+	font-size: 1.8em;
+	font-weight: bolder;
+	float: left;
+	margin-left: 35%;
+	border-radius: 20px;
+	background-color: #D96C06;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid transparent;
+}
+
+.comprar-prod:hover{
+	border: 2px solid #556F44;
+	background-color: white;
+	color: #556F44;
+}
